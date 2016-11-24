@@ -1,0 +1,25 @@
+{
+  "name": "myo_chromecast_controller",
+  "version": "1.0.4",
+  "description": "A npm module that can control chromecast playback(play/pause/fast forward/fast rewind/volumn up/ volumn down) by using myo armband",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "myo",
+    "chromecast"
+  ],
+"repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/JoshuaJi/myo_chromecast_controller.git"
+  },
+  "bin": "./index.js",
+  "author": "Xu Ji",
+  "license": "ISC",
+  "dependencies": {
+    "chromecast-player": "^0.2.3",
+    "myo": "git://github.com/JoshuaJi/myo.js.git#issue10fix"
+  }
+}
